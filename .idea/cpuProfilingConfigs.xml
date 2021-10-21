@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CpuProfilerConfigsState">
+    <option name="userConfigs">
+      <list>
+        <CpuProfilerConfig>
+          <option name="name" value="WZT" />
+          <option name="samplingIntervalUs" value="50000" />
+        </CpuProfilerConfig>
+      </list>
+    </option>
+  </component>
+</project>

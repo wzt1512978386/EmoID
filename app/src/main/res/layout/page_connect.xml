@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.emoid_cv6fox.UI.Connect.FrameConnect
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearlayout_connect_list_device"
+        android:background="@drawable/shape_connect_section_list"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="80dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recylerview_connect"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <FrameLayout
+            android:background="@drawable/shape_connectc_section_top"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:text="下拉                  刷新"
+                android:textSize="15dp"
+                android:textColor="@color/colorWhite"
+                android:alpha="0.7"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </TextView>
+        </FrameLayout>
+
+        <com.example.emoid_cv6fox.UI.Connect.ViewRefresh
+            android:id="@+id/refreshview_connect"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+        </com.example.emoid_cv6fox.UI.Connect.ViewRefresh>
+
+    </LinearLayout>
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifimageview_connect"
+        android:src="@drawable/gif_bb"
+        android:background="@drawable/shape_connect_gif_"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+        android:layout_width="50dp"
+        android:layout_height="50dp">
+    </pl.droidsonroids.gif.GifImageView>
+
+</com.example.emoid_cv6fox.UI.Connect.FrameConnect>

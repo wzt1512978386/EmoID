@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorBlack"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:background="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:src="@drawable/p_image_setting_terminal"
+            android:layout_margin="5dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp">
+        </ImageView>
+        <TextView
+            android:text="Terminal"
+            android:textSize="15sp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:id="@+id/imagebutton_setting_terminal_trash"
+                android:src="@drawable/p_button_setting_trash"
+                android:background="@color/colorTransparent"
+                android:scaleType="centerInside"
+                android:layout_gravity="right"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp">
+            </ImageButton>
+        </FrameLayout>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textview_setting_terminal"
+            android:text="~EmoID:"
+            android:textColor="@color/colorWhite"
+            android:textSize="12sp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+    </ScrollView>
+</LinearLayout>

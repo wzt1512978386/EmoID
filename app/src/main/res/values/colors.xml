@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorTab">#9999ff</color>
+    <color name="colorTabm">#6F6FDC</color>
+    <color name="colorBackground">#EAEAFF</color>
+    <color name="colorItemDeviceBackground">#9be9ff</color>
+    <color name="colorSectionConnectTop">#4FDDEF</color>
+    <color name="colorSectionIdentifyTop">#9be9ff</color>
+    <color name="colorSectionIdentifyBot">#E4C76F</color>
+    <color name="colorHeart">#FFC107</color>
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#ff000000</color>
+    <color name="colorRed">#F44336</color>
+
+    <color name="colorLevel1">#CC99FF</color>
+    <color name="colorLevel2">#9900FF</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorTransparentBlack">#66000000</color>
+    <color name="colorDialog">#FDEBD0</color>
+    <color name="colorDialogSectionUp">#B9F178</color>
+    <color name="colorDialogSectiondown">#24C3B4</color>
+
+    <color name="colorFace1">#FF9800</color>
+    <color name="colorFace2">#4CAF50</color>
+    <color name="colorFace3">#9C27B0</color>
+    <color name="colorFace4">#3F51B5</color>
+
+    <color name="face1">#FFC107</color>
+    <color name="face2">#8BC34A</color>
+    <color name="face3">#2196F3</color>
+    <color name="face4">#F13B34</color>
+
+    <color name="face1_d">#FFE494</color>
+    <color name="face2_d">#CFFF97</color>
+    <color name="face3_d">#9DD4FF</color>
+    <color name="face4_d">#FFA6A2</color>
+
+
+    <color name="styleLevel_000">#EAEAFF</color>
+    <color name="styleLevel_001">#D1D1FA</color>
+    <color name="styleLevel_002">#B3B3EC</color>
+    <color name="styleLevel_003">#9696E6</color>
+    <color name="styleLevel_004">#7E7ED6</color>
+    <color name="styleLevel_005">#6363BA</color>
+    <color name="styleLevel_006">#46469A</color>
+    <color name="styleLevel_007">#333380</color>
+
+    <color name="heart">#FFC1C1</color>
+
+
+</resources>

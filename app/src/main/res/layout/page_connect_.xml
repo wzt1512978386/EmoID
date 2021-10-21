@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.emoid_cv6fox.flash.connect.FlashConnect
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fl_connect"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+
+        <com.example.emoid_cv6fox.flash.connect.SectionConnectTop
+            android:id="@+id/sc_connect_top"
+
+            android:layout_width="match_parent"
+            android:layout_height="125dp">
+            <LinearLayout
+                android:id="@+id/sc_connect_top_temp"
+                android:background="@drawable/dr_section_connect_top"
+                android:translationZ="5dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal">
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/gf_section_connect_top"
+                    android:src="@drawable/gif_bb"
+                    android:scaleType="centerInside"
+                    android:layout_marginTop="50dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp">
+                </pl.droidsonroids.gif.GifImageView>
+                <TextView
+                    android:id="@+id/tv_section_connect_top"
+                    android:background="@drawable/dr_section_connect_top_text"
+                    android:text="下拉刷新"
+                    android:textSize="20sp"
+                    android:gravity="center|bottom"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent">
+                </TextView>
+            </LinearLayout>
+        </com.example.emoid_cv6fox.flash.connect.SectionConnectTop>
+
+        <ListView
+            android:id="@+id/lv_newdevice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null">
+        </ListView>
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/shape_section_connect_top_"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_height="40dp"
+        android:gravity="bottom">
+    </LinearLayout>
+
+</com.example.emoid_cv6fox.flash.connect.FlashConnect>
+

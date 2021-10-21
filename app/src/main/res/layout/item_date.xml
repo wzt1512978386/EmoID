@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.emoid_cv6fox.UI.Statistic.FrameDateItem
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/framedateitem_statistic"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/textview_statistic_dateitem"
+        android:text="1"
+        android:textSize="14sp"
+        android:textColor="@color/colorBlack"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+</com.example.emoid_cv6fox.UI.Statistic.FrameDateItem>

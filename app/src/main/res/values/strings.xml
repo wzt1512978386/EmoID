@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EmoID</string>
+    <string name="calendar">%1$2d月 %2$4d</string>
+    <string name="dialogCalendar">%1$4d年%2$2d月%3$2d日</string>
+    <string name="HM">%1$2d:%2$2d</string>
+    <string name="collectRate">%1$02d%%</string>
+</resources>
