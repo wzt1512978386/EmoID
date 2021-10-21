@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
-* text=android
+# * text=auto
+* linguist-language=android
+
